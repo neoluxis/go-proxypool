@@ -1,6 +1,6 @@
 # your domain
-domain: example.com   # or example.com:9443 for reserve proxy server
-port:                 # default 12580
+domain: proxy.likangfeng.eu.org   # or example.com:9443 for reserve proxy server
+port: 12585                 # default 12580
 
 # source list file
 source-files:
@@ -21,7 +21,7 @@ healthcheck-timeout:        # default 5 (seconds)
 healthcheck-connection:     # default 500. The number of health check connections simultaneously
 
 #==== Speed test ====#
-speedtest: false            # default false. Warning: this will consume large network resources.
+speedtest: true            # default false. Warning: this will consume large network resources.
 speedtest-interval:         # default 720 (min)
 speed-timeout:              # default 10 (seconds).
 speed-connection:           # v0.7.2 default 5. The number of speed test connections simultaneously

@@ -1,34 +1,74 @@
 # 模糊抓取订阅链接
-- type: webfuzzsub
-  options:
-    url: https://raw.githubusercontent.com/du5/free/master/sub.list
+# - type: webfuzzsub
+#   options:
+#     url: https://raw.githubusercontent.com/du5/free/master/sub.list
 
 # 订阅链接
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
+# - type: subscribe
+#   options:
+#     url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
 
 # 网页模糊抓取
-- type: webfuzz
-  options:
-    url: https://merlinblog.xyz/wiki/freess.html
+# - type: webfuzz
+#   options:
+#     url: https://merlinblog.xyz/wiki/freess.html
 
 # tg频道抓取
-- type: tgchannel
-  options:
-    channel: ssrList
-    num: 200
+# - type: tgchannel
+#   options:
+#     channel: ssrList
+#     num: 200
 
 # 翻墙党论坛抓取
-- type: web-fanqiangdang
-  options:
-    url: https://fanqiangdang.com/forum-48-1.html
+# - type: web-fanqiangdang
+#   options:
+#     url: https://fanqiangdang.com/forum-48-1.html
 
 # clash格式订阅链接
-- type: clash
-  options:
-    url: https://raw.githubusercontent.com/du5/free/master/file/0909/Clash.yaml
+# - type: clash
+#   options:
+#     url: https://raw.githubusercontent.com/du5/free/master/file/0909/Clash.yaml
 
 # 某个网站抓取
-- type: web-freessrxyz
+# - type: web-freessrxyz
+#   options:
+
+
+- type: clash
   options:
+    url: https://kr521.dynv6.net:9041/clash/proxies
+
+- type: clash
+  options:
+    url: https://pc.dhfkwitr.online/clash/proxies
+
+- type: clash
+  options:
+    url: https://vps.mireya.eu.org/clash/proxies
+
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
+
+# - type: tgchannel
+#   options:
+#     channel: Scanweb
+#     num: 200
+
+# - type: webfuzz
+#   options:
+#     url: https://freeproxy.pp.ua/?country=all&status=all
+
+- type: webfuzz
+  options:
+    url: https://github.com/Pawdroid/Free-servers
+
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml
+
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/itxve/fetch-clash-node/refs/heads/main/node/merge.yaml
+
+
