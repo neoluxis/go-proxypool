@@ -3,7 +3,7 @@
 if [ -e ~/proxypool ]; then
 	# Cloud version
 	echo "Using cloud verion de config"
-	cd ~/proxypool -v
+	cd ~/proxypool 
 	echo "Syncing from git repo"
 	git fetch
 	git pull
@@ -11,7 +11,7 @@ if [ -e ~/proxypool ]; then
 else
 	# local version
 	echo "Using local verion de config"
-	cd ~/app/go-proxypool -v
+	cd ~/app/go-proxypool 
 	echo "Syncing from git repo"
 	git fetch
 	git pull
