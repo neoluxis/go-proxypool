@@ -26,6 +26,7 @@ proxy-groups:
       - 延迟最低
       - 选择国家
       - 选择节点
+      - 百毫秒节点
       - 失败切换
       - 负载均衡
   - name: 选择国家
@@ -48,6 +49,12 @@ proxy-groups:
     type: select
     use:
       - all
+  - name: 百毫秒节点
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    use:
+      - ms100
   - name: 🇨🇳 中国
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
@@ -146,6 +153,14 @@ proxy-groups:
     interval: 300
 
 proxy-providers:
+  ms100:
+    type: http
+    url: "https://{{ .domain }}/clash/proxies?speed=100"
+    path: {{ .domain }}/provider-ms100.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
   au:
     type: http
     url: "https://{{ .domain }}/clash/proxies?c=AU"
