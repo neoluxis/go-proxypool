@@ -123,11 +123,6 @@
   options:
     url: https://raw.githubusercontent.com/imohammadkhalili/V2RAY/main/Mkhalili
 
-# 网页模糊抓取
-- type: webfuzz
-  options:
-    url: https://merlinblog.xyz/wiki/freess.html
-
 # clash格式订阅链接
 - type: clash
   options:
