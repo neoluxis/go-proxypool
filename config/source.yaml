@@ -128,3 +128,7 @@
   options:
     url: https://raw.githubusercontent.com/du5/free/master/file/0909/Clash.yaml
 # end 20250208
+
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_BASE64.txt
